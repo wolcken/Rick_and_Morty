@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    font-weight: 600;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    background-color: rgb(39,43,51);
+    padding: 10px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.title {
+    width: 200px;
+}
+
+.personajes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.char {
+    display: flex;
+    color: white;
+    margin: 10px;
+}
+
+.information {
+    background-color: rgb(60,62,68);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    width: 200px;
+}
+
+.imagen {
+    border-radius: 20px 0 0 20px;
+    width: 200px;
+}
+
+.information span {
+    margin: 5px 0 5px 0;
+    font-size: 12px;
+}
+
+.information h2 {
+    margin-bottom: 5px;
+}
+
+button {
+    color: white;
+    background-color: rgb(39,43,51);
+    border: 1px solid white;
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: rgb(60,62,68);
+}
