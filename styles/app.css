@@ -70,3 +70,18 @@ button {
 button:hover {
     background-color: rgb(60,62,68);
 }
+
+@media (max-width:420px) {
+    body {
+        font-size: 62.5%;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .char {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
